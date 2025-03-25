@@ -7,4 +7,6 @@ type Storage interface {
 
 	GetStudentByID(id int64) (types.Student, error)
 
+	GetAllStudents() ([]types.Student, error)
+
 }
