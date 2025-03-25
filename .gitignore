@@ -1,5 +1,5 @@
 # database
-storage 
+/storage 
 
 # env
 .env
